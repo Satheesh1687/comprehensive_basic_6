@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [AutifySuite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="SignUpErrorMessagesTest(failed)">
+    <groups>
+      <run>
+        <include name="signUpErrors"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SignUpErrorMessagesTest">
+        <methods>
+          <include name="testSignUpErrorMessages"/>
+        </methods>
+      </class> <!-- SignUpErrorMessagesTest -->
+    </classes>
+  </test> <!-- SignUpErrorMessagesTest(failed) -->
+</suite> <!-- Failed suite [AutifySuite] -->
