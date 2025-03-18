@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-18T06:28:05Z" name="AutifySuite" finished-at="2025-03-18T06:28:28Z" duration-ms="22891">
+    <groups>
+    </groups>
+    <test started-at="2025-03-18T06:28:05Z" name="NewTabTitleTest" finished-at="2025-03-18T06:28:16Z" duration-ms="11365">
+      <class name="NewTabTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:NewTabTest@6e15fe2]" started-at="2025-03-18T11:58:05Z" name="setup" finished-at="2025-03-18T11:58:09Z" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSwitchToChildWindowAndVerifyTitle()[pri:0, instance:NewTabTest@6e15fe2]" started-at="2025-03-18T11:58:09Z" name="testSwitchToChildWindowAndVerifyTitle" finished-at="2025-03-18T11:58:15Z" duration-ms="5983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwitchToChildWindowAndVerifyTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:NewTabTest@6e15fe2]" started-at="2025-03-18T11:58:15Z" name="teardown" finished-at="2025-03-18T11:58:16Z" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- NewTabTest -->
+    </test> <!-- NewTabTitleTest -->
+    <test started-at="2025-03-18T06:28:16Z" name="SignUpErrorMessagesTest" finished-at="2025-03-18T06:28:28Z" duration-ms="11455">
+      <class name="SignUpErrorMessagesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SignUpErrorMessagesTest@563e4951]" started-at="2025-03-18T11:58:16Z" name="setup" finished-at="2025-03-18T11:58:20Z" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSignUpErrorMessages()[pri:0, instance:SignUpErrorMessagesTest@563e4951]" started-at="2025-03-18T11:58:20Z" name="testSignUpErrorMessages" finished-at="2025-03-18T11:58:27Z" duration-ms="6379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpErrorMessages -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SignUpErrorMessagesTest@563e4951]" started-at="2025-03-18T11:58:27Z" name="teardown" finished-at="2025-03-18T11:58:28Z" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SignUpErrorMessagesTest -->
+    </test> <!-- SignUpErrorMessagesTest -->
+  </suite> <!-- AutifySuite -->
+</testng-results>
