@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutifySuite">
+
+	<test name="NewTabTitleTest">
+		<classes>
+			<class name="CA.Assignment6.NewTabTest">
+				<methods>
+					<include name="testSwitchToChildWindowAndVerifyTitle" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="SignUpErrorMessagesTest">
+		<classes>
+			<class name="CA.Assignment6.SignUpErrorMessagesTest">
+				<methods>
+					<include name="testSignUpErrorMessages" />
+				</methods>
+			</class>	
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutifySuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="NewTabTitleTest(failed)" verbose="0">
+    <classes>
+      <class name="CA.Assignment6.NewTabTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testSwitchToChildWindowAndVerifyTitle"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- CA.Assignment6.NewTabTest -->
+    </classes>
+  </test> <!-- NewTabTitleTest(failed) -->
+  <test thread-count="5" name="SignUpErrorMessagesTest(failed)" verbose="0">
+    <classes>
+      <class name="CA.Assignment6.SignUpErrorMessagesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testSignUpErrorMessages"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- CA.Assignment6.SignUpErrorMessagesTest -->
+    </classes>
+  </test> <!-- SignUpErrorMessagesTest(failed) -->
+</suite> <!-- Failed suite [AutifySuite] -->
