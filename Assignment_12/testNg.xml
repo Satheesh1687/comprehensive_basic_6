@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BDD">
+    <test name="Test">
+        <classes>
+            <class name="BDD.testRunner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
