@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegisterEndpointTestsSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegisterEndpointTests(failed)">
+    <classes>
+      <class name="EndpointTest.registerEndpointTests">
+        <methods>
+          <include name="TestvalidUserRegister"/>
+        </methods>
+      </class> <!-- EndpointTest.registerEndpointTests -->
+    </classes>
+  </test> <!-- RegisterEndpointTests(failed) -->
+</suite> <!-- Failed suite [RegisterEndpointTestsSuite] -->
