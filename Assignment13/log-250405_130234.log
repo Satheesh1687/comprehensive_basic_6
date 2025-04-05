@@ -1,0 +1,5 @@
+2025-04-05 13:02:36,792 [INFO]: PageObject.loading_Page.Login_Page: Click dropdown
+2025-04-05 13:02:37,804 [INFO]: PageObject.loading_Page.Login_Page: Title matches: WebDriver | Dropdown Menu(s) | Checkboxe(s) | Radio Button(s)
+2025-04-05 13:02:37,975 [INFO]: PageObject.loading_Page.Login_Page: Successfully selected 'Python' option!
+2025-04-05 13:02:38,234 [INFO]: PageObject.loading_Page.Login_Page: Checked checkboxes: 4, Unchecked checkboxes: 0
+2025-04-05 13:02:38,341 [INFO]: PageObject.loading_Page.Login_Page: Checked radio buttons: 1, Unchecked radio buttons: 4
